@@ -1,4 +1,3 @@
-//test für BlueJ
 public class Konto
 {
     // Instanzvariablen
