@@ -1,5 +1,3 @@
-//Hier könnte dein Name stehen
-//idden wieder voll
 public class Konto
 {
     // Instanzvariablen
