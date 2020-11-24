@@ -1,3 +1,4 @@
+//Simon ist da
 public class Konto
 {
     // Instanzvariablen
