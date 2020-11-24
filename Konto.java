@@ -1,4 +1,5 @@
 //Simon ist da
+//das ist aber cool!
 public class Konto
 {
     // Instanzvariablen
