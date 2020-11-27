@@ -34,4 +34,9 @@ public class Test
         konto1.ueberweisen(500, 10, konto2); //falscher Pin
         konto1.ueberweisen(1000000, 1, konto2); //zu hoher Betrag
     }
+    
+    public void testEinzug(){
+        konto1.einziehen(100, konto2);
+        konto1.einziehen(10000, konto2); //zu hoher Betrag
+    }
 }

@@ -38,7 +38,7 @@ public class Konto
         }
     }
     
-    public void einzug(int pEinzugsWert, Konto pZielKonto){
+    public void einziehen(int pEinzugsWert, Konto pZielKonto){
         if(pZielKonto.kontostand > pEinzugsWert){
             einzahlen(pEinzugsWert);
             pZielKonto.kontostand=pZielKonto.kontostand-pEinzugsWert;
