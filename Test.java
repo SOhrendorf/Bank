@@ -9,10 +9,10 @@ public class Test
 
     public Test()
     {
-        konto1 = new Konto(1, 1);
-        konto2 = new Konto(2, 2);
-        konto3 = new Konto(3, 3);
-        konto4 = new Konto(4, 4);
+        konto1 = new Konto(1, 1, 0);
+        konto2 = new Konto(2, 2, 1);
+        konto3 = new Konto(3, 3, 2);
+        konto4 = new Konto(4, 4, 0);
     }
 
     public void testEinzahlen()
